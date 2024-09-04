@@ -1,0 +1,136 @@
+body {
+    font-family : sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-top: 5%;
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+/* Container untuk menampung tombol */
+.center-container {
+  display: flex;
+  justify-content: center; /* Mengatur posisi horizontal ke tengah */
+  align-items: center; /* Mengatur posisi vertikal ke tengah */
+  /* height: 100vh; Mengatur tinggi container agar memenuhi viewport */
+  margin: 0; /* Menghilangkan margin default */
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #0056b3;
+  border-color: #004085;
+}
+
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-align: center;
+}
+
+label {
+    margin-top: 10px;
+    display: block;
+    font-weight: bold;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 7px;
+    margin-bottom: 10px;
+    border: none; 
+    border-bottom: 2px solid #000000;
+    box-sizing: border-box;
+    transition: border-bottom-color 0.3s ease;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+    border-bottom-color: #007bff; 
+}
+
+button {
+    font-weight: bold;
+    width: 100%;
+    padding: 10px;
+    background-color: #00ff2a;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.btn-primary {
+  width: 100;
+}
+
+button:hover {
+    background-color: #09ff00;
+}
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 20px; 
+}
+
+
+.dropdown label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: block;
+}
+
+
+.dropdown select {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #f9f9f9; 
+  appearance: none; 
+}
+
+.center-text {
+  text-align: center;
+  color: #28a745; 
+  margin-top: 30px; 
+}
+
+.btn-primary {
+  font-weight: bold;
+  font-size: 14px;
+  display: block;
+  margin: 0;
+  color: #ffffff;
+  background-color: #0022ff;
+  border-color: #0019be;
+  padding: 8px 0px;
+  text-decoration: none;
+  text-align: center;
+  width: 100%;
+  margin-top: 10px;
+  border-radius: 0%;
+}
+
+.btn-primary:hover {
+  background-color: #0019bf;
+}
